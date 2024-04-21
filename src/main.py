@@ -1,6 +1,5 @@
-from database import DataBase
-from addressbook import AddressBook
-
+from src.addressbook import AddressBook
+from src.database import DataBase
 
 if __name__ == "__main__":
     db = DataBase()
