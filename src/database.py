@@ -45,7 +45,7 @@ class DataBase:
 
         Remeber this update the record from the addressbook table
         """
-        sql = "UPDATE addressbook SET {} WHERE id=?".format(column_name)
+        sql = f"UPDATE addressbook SET {column_name} WHERE id=?"
 
         self.cursor.execute(sql, (idx,))
         self.connection.commit()
