@@ -78,7 +78,8 @@ disable=raw-checker-failed,
         multiple-imports, # C0410
         import-error, # E0401
         too-few-public-methods, # R0903
-        missing-module-docstring # C0114
+        missing-module-docstring, # C0114
+        missing-class-docstring # C0115
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
